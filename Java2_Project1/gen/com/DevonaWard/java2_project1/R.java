@@ -38,12 +38,12 @@ public final class R {
         public static final int goBtn=0x7f090001;
         public static final int mainFrag=0x7f09000d;
         public static final int moreBtn=0x7f09000b;
-        public static final int secondFrag=0x7f09000f;
+        public static final int secondFrag=0x7f09000e;
         public static final int statsLayout=0x7f090002;
         public static final int teamRow=0x7f090003;
         public static final int teamTxt=0x7f090004;
         public static final int team_spinner=0x7f090000;
-        public static final int webview=0x7f09000e;
+        public static final int webview=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

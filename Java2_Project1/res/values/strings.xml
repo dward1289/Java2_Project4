@@ -12,7 +12,7 @@
     <string name="about">Visit My GitHub</string>
     <string name="placeHolder">[][][][][][][]</string>
     <string name="go">Go</string>
-    <string name="more">More Info</string>
+    <string name="more">More NBA</string>
     <string-array name="city_array">
         <item>Atlanta Hawks</item>
         <item>Boston Celtics</item>
@@ -30,7 +30,7 @@
         <item>Minnesota Timberwolves</item>
         <item>New Orleans Pelicans</item>
         <item>New York Knicks</item>
-        <item>Oklahoma City Thinder</item>
+        <item>Oklahoma City Thunder</item>
         <item>Orlando Magic</item>
         <item>Philadelphia 76ers</item>
         <item>Phoenix Suns</item>

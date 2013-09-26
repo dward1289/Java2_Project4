@@ -14,26 +14,22 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.Menu;
-import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 
-public class MainActivity extends Activity implements MainFragment.mainListener {
+public class MainActivity extends Activity implements MainFragment.mainListener{
 	Context context = this;
 	JSONArray theSavedObject;
 	String fullName;
 	String teamID;
-	Button moreInfo;
+
 	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_frag);
-		
-		moreInfo = (Button) findViewById(R.id.moreBtn);
-		moreInfo.setEnabled(false);
 	}
 
 	
@@ -73,7 +69,7 @@ public class MainActivity extends Activity implements MainFragment.mainListener 
 				teamDiv.setText(division);
 				
 				//Enable more info button
-				moreInfo.setEnabled(true);
+				
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -106,10 +102,9 @@ public class MainActivity extends Activity implements MainFragment.mainListener 
 	@Override
 	public void onNewAct() {
 		//Explicit Intent created
-		Intent intent2 = new Intent(this,SecondActivity.class);
-		intent2.putExtra("teamName", teamID);
-		this.startActivity(intent2);
-		
+		Intent intent = new Intent(this,SecondActivity.class);
+		intent.putExtra("teamName", teamID);	
+		startActivity(intent);
 	}
 
 

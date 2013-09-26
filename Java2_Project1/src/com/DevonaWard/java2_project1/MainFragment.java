@@ -38,15 +38,16 @@ public class MainFragment extends Fragment {
 			goAct.setOnClickListener(new OnClickListener(){
 			//New Activity called from onClick
 			public void onClick(View view){
-				listener.onNewAct();
+				listener.onAboutStart();
 				}
 			});
 			
 			Button moreBtn = (Button) view.findViewById(R.id.moreBtn);
 			moreBtn.setOnClickListener(new OnClickListener(){
+				
 			//Start About Intent (Implicit Intent)
 			public void onClick(View view){
-				listener.onAboutStart();
+				listener.onNewAct();
 				}
 			});
 			return view;

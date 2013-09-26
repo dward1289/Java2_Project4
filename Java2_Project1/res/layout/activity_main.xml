@@ -23,7 +23,7 @@
     <TableLayout
         android:id="@+id/statsLayout"
         android:layout_width="match_parent"
-        android:layout_height="151dp"
+        android:layout_height="wrap_content"
         android:shrinkColumns="*"
         android:stretchColumns="*" >
 
@@ -85,7 +85,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/more" />
-
+    
     <Button
         android:id="@+id/aboutBtn"
         android:layout_width="match_parent"
